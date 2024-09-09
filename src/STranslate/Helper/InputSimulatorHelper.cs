@@ -38,9 +38,9 @@ public class InputSimulatorHelper
             foreach (var ch in line)
             {
                 LogService.Logger.Debug($"{ch}");
-                InputSimulator.Keyboard.TextEntry(ch.ToString());
+                InputSimulator.Keyboard.TextEntry(ch);
             }
-            InputSimulator.Keyboard.TextEntry(line);
+            // InputSimulator.Keyboard.TextEntry(line);
             // 模拟按下回车键，除了最后一行
             if (!line.Equals(lines.Last())) InputSimulator.Keyboard.KeyPress(VirtualKeyCode.RETURN);
         }
