@@ -20,7 +20,7 @@ public class InputSimulatorHelper
 
         // 分割字符串为多行
         var lines = content.Split(["\r\n", "\r", "\n"], StringSplitOptions.None);
-
+        
         // 处理流式输出中单独的换行符号: \r\n  \r  \n  \n\n
         if (lines.All(x => x == ""))
         {
@@ -33,6 +33,7 @@ public class InputSimulatorHelper
 
         foreach (var line in lines)
         {
+            LogService.Logger.Debug($"aaa:{line}");
             InputSimulator.Keyboard.TextEntry(line);
             // 模拟按下回车键，除了最后一行
             if (!line.Equals(lines.Last())) InputSimulator.Keyboard.KeyPress(VirtualKeyCode.RETURN);
