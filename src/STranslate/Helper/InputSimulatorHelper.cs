@@ -1,4 +1,5 @@
 ﻿using WindowsInput;
+using STranslate.Log;
 
 namespace STranslate.Helper;
 
