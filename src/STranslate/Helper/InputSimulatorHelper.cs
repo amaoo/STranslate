@@ -35,6 +35,10 @@ public class InputSimulatorHelper
         foreach (var line in lines)
         {
             LogService.Logger.Debug($"aaa:{line}");
+            foreach (var ch in line)
+            {
+                InputSimulator.Keyboard.TextEntry(ch.ToString());
+            }
             InputSimulator.Keyboard.TextEntry(line);
             // 模拟按下回车键，除了最后一行
             if (!line.Equals(lines.Last())) InputSimulator.Keyboard.KeyPress(VirtualKeyCode.RETURN);
