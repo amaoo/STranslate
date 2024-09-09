@@ -34,9 +34,10 @@ public class InputSimulatorHelper
 
         foreach (var line in lines)
         {
-            LogService.Logger.Debug($"aaa:{line}");
+            LogService.Logger.Debug($"{line}");
             foreach (var ch in line)
             {
+                LogService.Logger.Debug($"{ch}");
                 InputSimulator.Keyboard.TextEntry(ch.ToString());
             }
             InputSimulator.Keyboard.TextEntry(line);
