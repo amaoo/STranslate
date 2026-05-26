@@ -126,17 +126,17 @@
                     </menu:Btn>
 
                     <menu:Btn
-                        Command="{Binding HotkeyPageCommand}"
-                        IsChecked="{Binding PType, Converter={StaticResource PreferenceType2BooleanConverter}, ConverterParameter=Hotkey}"
-                        Style="{StaticResource BtnStyle}">
-                        <TextBlock Style="{StaticResource Text_Style}" Text="{DynamicResource Preference.Navi.Hotkey}" />
-                    </menu:Btn>
-
-                    <menu:Btn
                         Command="{Binding ServicePageCommand}"
                         IsChecked="{Binding PType, Converter={StaticResource PreferenceType2BooleanConverter}, ConverterParameter=Service}"
                         Style="{StaticResource BtnStyle}">
                         <TextBlock Style="{StaticResource Text_Style}" Text="{DynamicResource Preference.Navi.Service}" />
+                    </menu:Btn>
+
+                    <menu:Btn
+                        Command="{Binding HotkeyPageCommand}"
+                        IsChecked="{Binding PType, Converter={StaticResource PreferenceType2BooleanConverter}, ConverterParameter=Hotkey}"
+                        Style="{StaticResource BtnStyle}">
+                        <TextBlock Style="{StaticResource Text_Style}" Text="{DynamicResource Preference.Navi.Hotkey}" />
                     </menu:Btn>
 
                     <!--<menu:Btn
