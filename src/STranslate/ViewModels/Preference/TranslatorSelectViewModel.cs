@@ -71,6 +71,7 @@ public partial class TranslatorSelectViewModel : WindowVMBase
             TranslatorOpenRouter openrouter => openrouter.Clone(),
             TranslatorQwenMt qwenmt => qwenmt.Clone(),
             TranslatorMTranServer mtranserver => mtranserver.Clone(),
+            TranslatorAwsBedrock awsBedrock => awsBedrock.Clone(),
             //TODO: 新接口需要适配
             _ => throw new InvalidOperationException($"Unsupported service type: {translator.GetType().Name}")
         };
