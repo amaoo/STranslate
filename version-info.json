@@ -13,5 +13,5 @@
       "size": 54161982
     }
   ],
-  "body": "## 更新\r\n\r\n- 部分界面优化\r\n\r\n> 该版本内部集成任务计划启动以跳过UAC弹窗确认, 用户可以在软件内设置是否启用管理员权限启动软件, 开机自启由软件内 `开机自启动` 控制\r\n> **如果先前通过 `install_startup.bat` 创建了任务计划, 更新前请运行软件内 `uninstall_startup.bat` 删除旧的任务计划程序以避免异常情况**\r\n\r\n\r\n## 离线数据\r\n\r\n[123 网盘](https://www.123pan.com/s/AxlRjv-OuVmA.html)\r\n\r\n> 离线数据包含: [简明英汉词典数据包](https://github.com/skywind3000/ECDICT/releases/download/1.0.28/ecdict-sqlite-28.zip) [PaddleOCR数据包(v4.3)](https://github.com/ZGGSONG/STranslate/releases/download/0.01/stranslate_paddleocr_data_v4.3.zip) 等\r\n\r\n> 另: OCR部分软件内置`微信OCR`(1.5.0.402版本开始内置微信OCR数据包，无需依赖外部微信)、词典部分软件内置了`必应`、`金山`词典，上述离线数据包配置较为繁琐，可直接使用软件内置服务\n"
+  "body": "## 更新\r\n\r\n- 新增: AWS Bedrock 翻译服务, 支持 API 密钥与 AccessKey/SecretKey 两种鉴权方式\r\n\r\n> 该版本内部集成任务计划启动以跳过UAC弹窗确认, 用户可以在软件内设置是否启用管理员权限启动软件, 开机自启由软件内 `开机自启动` 控制\r\n> **如果先前通过 `install_startup.bat` 创建了任务计划, 更新前请运行软件内 `uninstall_startup.bat` 删除旧的任务计划程序以避免异常情况**\r\n\r\n\r\n## 离线数据\r\n\r\n[123 网盘](https://www.123pan.com/s/AxlRjv-OuVmA.html)\r\n\r\n> 离线数据包含: [简明英汉词典数据包](https://github.com/skywind3000/ECDICT/releases/download/1.0.28/ecdict-sqlite-28.zip) [PaddleOCR数据包(v4.3)](https://github.com/ZGGSONG/STranslate/releases/download/0.01/stranslate_paddleocr_data_v4.3.zip) 等\r\n\r\n> 另: OCR部分软件内置`微信OCR`(1.5.0.402版本开始内置微信OCR数据包，无需依赖外部微信)、词典部分软件内置了`必应`、`金山`词典，上述离线数据包配置较为繁琐，可直接使用软件内置服务\n"
 }

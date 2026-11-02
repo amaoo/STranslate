@@ -30,7 +30,7 @@ jobs:
 
     - name: Publish
       run: |
-        .\publish.ps1
+        .\publish.ps1 -Version "${{ github.ref_name }}"
         .\cleanocr.ps1
         .\7z.ps1 ${{ github.ref_name }}
 
