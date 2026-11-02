@@ -15,6 +15,9 @@ public class ParamEqualToVisibility : IValueConverter
                 pType == lType ? Visibility.Visible : Visibility.Collapsed,
             LangEnum lang when parameter is string paramStr && Enum.TryParse(paramStr, out LangEnum pLang) =>
                 lang == pLang ? Visibility.Visible : Visibility.Collapsed,
+            AwsBedrockAuthTypeEnum authType when parameter is string authStr &&
+                Enum.TryParse(authStr, out AwsBedrockAuthTypeEnum pAuthType) =>
+                authType == pAuthType ? Visibility.Visible : Visibility.Collapsed,
             _ => Visibility.Collapsed
         };
     }

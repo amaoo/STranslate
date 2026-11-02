@@ -37,6 +37,9 @@
     <Resource Include="Resources\ali.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Resources\awsbedrock.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\azure.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

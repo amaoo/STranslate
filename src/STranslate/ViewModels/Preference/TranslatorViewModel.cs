@@ -77,6 +77,7 @@ public partial class TranslatorViewModel : ObservableObject
         TransServices.Add(new TranslatorCaiyun());
         TransServices.Add(new TranslatorQwenMt());
         TransServices.Add(new TranslatorMTranServer());
+        TransServices.Add(new TranslatorAwsBedrock());
         //TODO: 新接口需要适配
 
         ResetView();
@@ -180,6 +181,7 @@ public partial class TranslatorViewModel : ObservableObject
             ServiceType.OpenRouterService => $"{head}{nameof(TranslatorOpenRouterPage)}",
             ServiceType.QwenMtService => $"{head}{nameof(TranslatorQwenMtPage)}",
             ServiceType.MTranServerService => $"{head}{nameof(TranslatorMTranServerPage)}",
+            ServiceType.AwsBedrockService => $"{head}{nameof(TranslatorAwsBedrockPage)}",
             //TODO: 新接口需要适配
             _ => $"{head}{nameof(TranslatorSTranslatePage)}"
         };
@@ -227,6 +229,7 @@ public partial class TranslatorViewModel : ObservableObject
                 TranslatorOpenRouter openrouter => openrouter.Clone(),
                 TranslatorQwenMt qwenmt => qwenmt.Clone(),
                 TranslatorMTranServer mtranserver => mtranserver.Clone(),
+                TranslatorAwsBedrock awsBedrock => awsBedrock.Clone(),
                 //TODO: 新接口需要适配
                 _ => throw new InvalidOperationException($"Unsupported service type: {service.GetType().Name}")
             });

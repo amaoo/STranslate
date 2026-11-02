@@ -608,6 +608,7 @@
     <system:String x:Key="Service.ClearDll">清理依赖库</system:String>
     <system:String x:Key="Service.Translator.ChatGLM">接口API地址不填写Path内容则自动填充 /api/paas/v4/chat/completions&#13;如OpenAI接口地址为 https://api.openai.com/v1/chat/completions 其中 Path 为 /v1/chat/completions</system:String>
     <system:String x:Key="Service.Translator.Claude">接口API地址不填写Path内容则自动填充 /v1/messages&#13;如OpenAI接口地址为 https://api.openai.com/v1/chat/completions 其中 Path 为 /v1/chat/completions</system:String>
+    <system:String x:Key="Service.Translator.AwsBedrock">接口地址为 Bedrock Runtime Endpoint, 格式如 https://bedrock-runtime.{region}.amazonaws.com&#13;鉴权方式支持 Bedrock API密钥(Bearer Token) 或 AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY(SigV4签名)</system:String>
     <system:String x:Key="Service.Translator.DeepL.UsageSearch">余额查询:</system:String>
     <system:String x:Key="Service.Translator.DeepL.Search">查询</system:String>
     <system:String x:Key="Service.Translator.DeepLX.Token">没有则无需填写</system:String>

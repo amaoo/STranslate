@@ -608,6 +608,7 @@
     <system:String x:Key="Service.ClearDll">Clear Dll</system:String>
     <system:String x:Key="Service.Translator.ChatGLM">If the API address doesn't include a Path, it will automatically be filled with /api/paas/v4/chat/completions&#13;For example, if the OpenAI API address is https://api.openai.com/v1/chat/completions, the Path is /v1/chat/completions</system:String>
     <system:String x:Key="Service.Translator.Claude">If the API address doesn't include a Path, it will automatically be filled with /v1/messages&#13;For example, if the OpenAI API address is https://api.openai.com/v1/chat/completions, the Path is /v1/chat/completions</system:String>
+    <system:String x:Key="Service.Translator.AwsBedrock">The API address is the Bedrock Runtime Endpoint, e.g. https://bedrock-runtime.{region}.amazonaws.com&#13;Supports authentication via Bedrock API Key (Bearer Token) or AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY (SigV4)</system:String>
     <system:String x:Key="Service.Translator.DeepL.UsageSearch">Usage:</system:String>
     <system:String x:Key="Service.Translator.DeepL.Search">Search</system:String>
     <system:String x:Key="Service.Translator.DeepLX.Token">No need to fill in if not available</system:String>

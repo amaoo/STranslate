@@ -608,6 +608,7 @@
     <system:String x:Key="Service.ClearDll">清理依賴庫</system:String>
     <system:String x:Key="Service.Translator.ChatGLM">介面API位址不填寫Path內容則自動填充 /api/paas/v4/chat/completions&#13;如OpenAI介面位址為 https://api.openai.com/v1/chat/completions 其中 Path 為 /v1/chat/completions</system:String>
     <system:String x:Key="Service.Translator.Claude">介面API位址不填寫Path內容則自動填充 /v1/messages&#13;如OpenAI介面位址為 https://api.openai.com/v1/chat/completions 其中 Path 為 /v1/chat/completions</system:String>
+    <system:String x:Key="Service.Translator.AwsBedrock">介面位址為 Bedrock Runtime Endpoint, 格式如 https://bedrock-runtime.{region}.amazonaws.com&#13;鑑權方式支援 Bedrock API金鑰(Bearer Token) 或 AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY(SigV4簽名)</system:String>
     <system:String x:Key="Service.Translator.DeepL.UsageSearch">餘額查詢:</system:String>
     <system:String x:Key="Service.Translator.DeepL.Search">查詢</system:String>
     <system:String x:Key="Service.Translator.DeepLX.Token">沒有則無需填寫</system:String>

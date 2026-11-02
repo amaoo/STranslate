@@ -211,6 +211,16 @@ public enum ServiceType
     OpenRouterService,
     QwenMtService,
     MTranServerService,
+    AwsBedrockService,
+}
+
+/// <summary>
+///     AWS Bedrock 鉴权方式
+/// </summary>
+public enum AwsBedrockAuthTypeEnum
+{
+    [Description("API密钥")] ApiKey,
+    [Description("AccessKey/SecretKey")] AccessKey,
 }
 
 public enum TTSType
@@ -310,6 +320,7 @@ public enum IconType
     [Description("OpenRouter")] OpenRouter,
     [Description("Maimemo")] Maimemo,
     [Description("MTranServer")] MTranServer,
+    [Description("AWS Bedrock")] AwsBedrock,
 }
 
 /// <summary>

@@ -116,7 +116,7 @@ jobs:
           
           git add version-info.json
           git commit -m "更新版本信息至 ${{ env.VERSION }}"
-          git push origin HEAD:main
+          git push origin HEAD:1.x
         
     # TODO: 输出 Hash 结果给 scoop extras
     # - name: Output
