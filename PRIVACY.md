@@ -38,6 +38,5 @@
 
 如果您对本隐私策略有任何疑问或建议，请通过以下方式联系开发者：
 
-* GitHub Issues: https://github.com/ZGGSONG/STranslate
-* 电子邮件: zggsong@foxmail.com
+* GitHub Issues: https://github.com/amaoo/STranslate
 

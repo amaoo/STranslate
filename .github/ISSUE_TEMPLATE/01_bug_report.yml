@@ -60,7 +60,7 @@ body:
     attributes:
       label: "我确认已更新至最新版本"
       description: |
-        否则请[点击这里前往 Release 页面](https://github.com/ZGGSONG/STranslate/releases)下载最新版后再尝试
+        否则请[点击这里前往 Release 页面](https://github.com/amaoo/STranslate/releases)下载最新版后再尝试
       options:
         - label: 是
           required: true

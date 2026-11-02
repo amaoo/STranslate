@@ -1,22 +1,22 @@
 <div align="center">
 
 <p>
-<a href="https://github.com/zggsong/STranslate" target="_blank">
+<a href="https://github.com/amaoo/STranslate" target="_blank">
 <img align="center" alt="STranslate" width="200" src="./attachments/imgs/favicon.svg" />
 </a>
 </p>
 <p>
-<a href="https://github.com/ZGGSONG/STranslate/blob/main/LICENSE" target="_self">
- <img alt="Latest GitHub release" src="https://img.shields.io/github/license/ZGGSONG/STranslate" />
+<a href="https://github.com/amaoo/STranslate/blob/1.x/LICENSE" target="_self">
+ <img alt="Latest GitHub release" src="https://img.shields.io/github/license/amaoo/STranslate" />
 </a>
-<a href="https://github.com/ZGGSONG/STranslate/releases/latest" target="_blank">
- <img alt="Latest GitHub release" src="https://img.shields.io/github/release/ZGGSONG/STranslate.svg" />
+<a href="https://github.com/amaoo/STranslate/releases/latest" target="_blank">
+ <img alt="Latest GitHub release" src="https://img.shields.io/github/release/amaoo/STranslate.svg" />
 </a>
-<a href="https://github.com/ZGGSONG/STranslate/releases" target="_self">
- <img alt="Downloads" src="https://img.shields.io/github/downloads/ZGGSONG/STranslate/total" />
+<a href="https://github.com/amaoo/STranslate/releases" target="_self">
+ <img alt="Downloads" src="https://img.shields.io/github/downloads/amaoo/STranslate/total" />
 </a>
-<a href="https://github.com/ZGGSONG/STranslate/discussions" target="_self">
- <img alt="Discussions" src="https://img.shields.io/github/discussions/ZGGSONG/STranslate" />
+<a href="https://github.com/amaoo/STranslate/discussions" target="_self">
+ <img alt="Discussions" src="https://img.shields.io/github/discussions/amaoo/STranslate" />
 </a>
 </p>
 
@@ -24,9 +24,9 @@
 
 [**English**](./README.md) | **简体中文**
 
-<a href="https://trendshift.io/repositories/6979" target="_blank"><img src="https://trendshift.io/api/badge/repositories/6979" alt="ZGGSONG%2FSTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
 <p align="center">WPF 开发的一款<strong>即用即走</strong>的翻译、OCR工具</p>
+
+> Fork 自 [ZGGSONG/STranslate](https://github.com/ZGGSONG/STranslate)
 
 <small>随着功能的更新以及免费服务的限制，建议申请服务并进行相应的配置以获得更好的使用体验</small>
 
@@ -36,14 +36,11 @@
 
 ## 访问
 
-| 国外 | 国内 |
-| :--: | :--: |
-| **[Github](https://github.com/ZGGSONG/STranslate)** | **[Gitee](https://gitee.com/zggsong/STranslate)** |
-
+**[Github](https://github.com/amaoo/STranslate)**
 
 ## 安装
 
-下载最新 [Release](https://github.com/ZGGSONG/STranslate/releases) 版本后解压即可使用
+下载最新 [Release](https://github.com/amaoo/STranslate/releases) 版本后解压即可使用
 
 ## 使用
 
@@ -51,15 +48,7 @@
 
 ## 讨论
 
-有疑问移步 [Discussions](https://github.com/ZGGSONG/STranslate/discussions) 进行讨论
-
-## 合作推广
-
-🛠️ **官方API合作伙伴**  
-
-[DeerAPI](https://api.deerapi.com/register?aff=j5dj) - AI聚合平台，一键调用500+模型，7折特惠，最新GPT4o、Grok 3、Gemini 2.5pro全支持！
-
-[点击注册](https://api.deerapi.com/register?aff=j5dj)享免费试用额度，也能支持软件长久发展
+有疑问移步 [Discussions](https://github.com/amaoo/STranslate/discussions) 进行讨论
 
 ## 感谢
 
@@ -76,26 +65,14 @@
 
 <a href="https://jb.gg/OpenSourceSupport"><img src="./attachments/imgs/jb_beam.svg" /></a>
 
-## 打赏
-
-觉得不错的话可以请作者喝杯阔落
-
-> 感谢打赏的朋友 [赞赏列表](Sponsor.md)
-
-| 微信 | 支付宝 |
-| :--: | :--: |
-|![wehcatpay](./attachments/imgs/wechatpay.jpg) | ![alipay](./attachments/imgs/alipay.jpg) |
-
-## 其他
-
-**软件开源且免费，如有特殊定制化需求，本人接受付费开发 [邮件](zggsong@foxmail.com)**
-
 ## 作者
 
-**STranslate** © [zggsong](https://github.com/zggsong), Released under the [MIT](https://github.com/ZGGSONG/STranslate/blob/main/LICENSE) License.<br>
+**STranslate** © [amaoo](https://github.com/amaoo), Released under the [MIT](https://github.com/amaoo/STranslate/blob/1.x/LICENSE) License.<br>
 
-> Website [Blog](https://www.zggsong.com) · GitHub [@zggsong](https://github.com/zggsong)
+> GitHub [@amaoo](https://github.com/amaoo)
+
+> Fork 自 [ZGGSONG/STranslate](https://github.com/ZGGSONG/STranslate), 感谢原作者的项目与历史 [赞赏列表](Sponsor.md)。
 
 ## 星标历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ZGGSONG/STranslate&type=Date)](https://star-history.com/#ZGGSONG/STranslate&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=amaoo/STranslate&type=Date)](https://star-history.com/#amaoo/STranslate&Date)

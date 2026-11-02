@@ -3,7 +3,7 @@
 	<Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
-	<RepositoryUrl>https://github.com/ZGGSONG/STranslate/</RepositoryUrl>
+	<RepositoryUrl>https://github.com/amaoo/STranslate/</RepositoryUrl>
 	<!--<ArtifactsPath>$(MSBuildThisFileDirectory).artifacts</ArtifactsPath>-->
   </PropertyGroup>
 </Project>

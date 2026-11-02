@@ -10,7 +10,7 @@
     <AssemblyVersion>1.7.0</AssemblyVersion>
     <FileVersion>1.7.0</FileVersion>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
-    <Copyright>ZGGSONG</Copyright>
+    <Copyright>amaoo</Copyright>
     <BaseOutputPath>..\..\bin\</BaseOutputPath>
   </PropertyGroup>
 

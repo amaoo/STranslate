@@ -144,7 +144,7 @@
                         <TextBlock
                             Cursor="Hand"
                             Text="MIT License"
-                            ToolTip="https://github.com/ZGGSONG/STranslate/blob/main/LICENSE">
+                            ToolTip="https://github.com/amaoo/STranslate/blob/1.x/LICENSE">
                             <i:Interaction.Triggers>
                                 <i:EventTrigger EventName="MouseLeftButtonDown">
                                     <i:InvokeCommandAction Command="{Binding OpenLinkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=TextBlock}, Path=ToolTip}" />
@@ -158,18 +158,10 @@
                             <Run Text="{DynamicResource About.Author}" />
                             <Run Text="    " />
                         </TextBlock>
-                        <TextBlock Text="zggsong@foxmail.com" ToolTip="zggsong@foxmail.com" />
-                    </WrapPanel>
-
-                    <WrapPanel Margin="20,10" Orientation="Horizontal">
-                        <TextBlock FontWeight="Bold">
-                            <Run Text="{DynamicResource About.Website}" />
-                            <Run Text="    " />
-                        </TextBlock>
                         <TextBlock
                             Cursor="Hand"
-                            Text="https://stranslate.zggsong.com"
-                            ToolTip="https://stranslate.zggsong.com/">
+                            Text="https://github.com/amaoo"
+                            ToolTip="https://github.com/amaoo">
                             <i:Interaction.Triggers>
                                 <i:EventTrigger EventName="MouseLeftButtonDown">
                                     <i:InvokeCommandAction Command="{Binding OpenLinkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=TextBlock}, Path=ToolTip}" />
@@ -185,8 +177,8 @@
                         </TextBlock>
                         <TextBlock
                             Cursor="Hand"
-                            Text="https://github.com/zggsong/stranslate"
-                            ToolTip="https://github.com/zggsong/stranslate">
+                            Text="https://github.com/amaoo/STranslate"
+                            ToolTip="https://github.com/amaoo/STranslate">
                             <i:Interaction.Triggers>
                                 <i:EventTrigger EventName="MouseLeftButtonDown">
                                     <i:InvokeCommandAction Command="{Binding OpenLinkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=TextBlock}, Path=ToolTip}" />
@@ -202,8 +194,8 @@
                         </TextBlock>
                         <TextBlock
                             Cursor="Hand"
-                            Text="https://github.com/zggsong/stranslate/issues"
-                            ToolTip="https://github.com/zggsong/stranslate/issues">
+                            Text="https://github.com/amaoo/STranslate/issues"
+                            ToolTip="https://github.com/amaoo/STranslate/issues">
                             <i:Interaction.Triggers>
                                 <i:EventTrigger EventName="MouseLeftButtonDown">
                                     <i:InvokeCommandAction Command="{Binding OpenLinkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=TextBlock}, Path=ToolTip}" />
@@ -232,6 +224,23 @@
                             Cursor="Hand"
                             Text="https://github.com/ripperhe"
                             ToolTip="https://github.com/ripperhe">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseLeftButtonDown">
+                                    <i:InvokeCommandAction Command="{Binding OpenLinkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=TextBlock}, Path=ToolTip}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBlock>
+                    </WrapPanel>
+
+                    <WrapPanel Margin="20,10" Orientation="Horizontal">
+                        <TextBlock FontWeight="Bold">
+                            <Run Text="{DynamicResource About.ForkFrom}" />
+                            <Run Text="    " />
+                        </TextBlock>
+                        <TextBlock
+                            Cursor="Hand"
+                            Text="https://github.com/ZGGSONG/STranslate"
+                            ToolTip="https://github.com/ZGGSONG/STranslate">
                             <i:Interaction.Triggers>
                                 <i:EventTrigger EventName="MouseLeftButtonDown">
                                     <i:InvokeCommandAction Command="{Binding OpenLinkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=TextBlock}, Path=ToolTip}" />

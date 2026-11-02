@@ -1,22 +1,22 @@
 <div align="center">
 
 <p>
-<a href="https://github.com/zggsong/STranslate" target="_blank">
+<a href="https://github.com/amaoo/STranslate" target="_blank">
 <img align="center" alt="STranslate" width="200" src="./attachments/imgs/favicon.svg" />
 </a>
 </p>
 <p>
-<a href="https://github.com/ZGGSONG/STranslate/blob/main/LICENSE" target="_self">
- <img alt="Latest GitHub release" src="https://img.shields.io/github/license/ZGGSONG/STranslate" />
+<a href="https://github.com/amaoo/STranslate/blob/1.x/LICENSE" target="_self">
+ <img alt="Latest GitHub release" src="https://img.shields.io/github/license/amaoo/STranslate" />
 </a>
-<a href="https://github.com/ZGGSONG/STranslate/releases/latest" target="_blank">
- <img alt="Latest GitHub release" src="https://img.shields.io/github/release/ZGGSONG/STranslate.svg" />
+<a href="https://github.com/amaoo/STranslate/releases/latest" target="_blank">
+ <img alt="Latest GitHub release" src="https://img.shields.io/github/release/amaoo/STranslate.svg" />
 </a>
-<a href="https://github.com/ZGGSONG/STranslate/releases" target="_self">
- <img alt="Downloads" src="https://img.shields.io/github/downloads/ZGGSONG/STranslate/total" />
+<a href="https://github.com/amaoo/STranslate/releases" target="_self">
+ <img alt="Downloads" src="https://img.shields.io/github/downloads/amaoo/STranslate/total" />
 </a>
-<a href="https://github.com/ZGGSONG/STranslate/discussions" target="_self">
- <img alt="Discussions" src="https://img.shields.io/github/discussions/ZGGSONG/STranslate" />
+<a href="https://github.com/amaoo/STranslate/discussions" target="_self">
+ <img alt="Discussions" src="https://img.shields.io/github/discussions/amaoo/STranslate" />
 </a>
 </p>
 
@@ -24,9 +24,9 @@
 
 **English** | [**简体中文**](./README_ZH.md)
 
-<a href="https://trendshift.io/repositories/6979" target="_blank"><img src="https://trendshift.io/api/badge/repositories/6979" alt="ZGGSONG%2FSTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
 <p align="center">A <strong>ready-to-go</strong> translation and OCR tool developed with WPF.</p>
+
+> Forked from [ZGGSONG/STranslate](https://github.com/ZGGSONG/STranslate)
 
 <small>With the update of features and the limitations of free services, it is recommended to apply for the service and make the corresponding configurations to obtain a better user experience.</small>
 
@@ -36,13 +36,11 @@
 
 ## Access
 
-| Overseas | Domestic |
-| :--: | :--: |
-| **[Github](https://github.com/ZGGSONG/STranslate)** | **[Gitee](https://gitee.com/zggsong/STranslate)** |
+**[Github](https://github.com/amaoo/STranslate)**
 
 ## Installation
 
-Download the latest [Release](https://github.com/ZGGSONG/STranslate/releases) version and extract it to use.
+Download the latest [Release](https://github.com/amaoo/STranslate/releases) version and extract it to use.
 
 ## Usage
 
@@ -50,15 +48,7 @@ Download the latest [Release](https://github.com/ZGGSONG/STranslate/releases) ve
 
 ## Discussion
 
-If you have questions, please go to [Discussions](https://github.com/ZGGSONG/STranslate/discussions) for discussion.
-
-## Cooperative promotion
-
-🛠️ **Official API Partner**  
-
-[DeerAPI](https://api.deerapi.com/register?aff=j5dj) - AI aggregation platform, one-click access to 500+ models, 30% off special offer, full support for the latest GPT4o, Grok 3, Gemini 2.5pro!
-
-[Click to register](https://api.deerapi.com/register?aff=j5dj) for a free trial quota, also supporting the long-term development of the software.
+If you have questions, please go to [Discussions](https://github.com/amaoo/STranslate/discussions) for discussion.
 
 ## Acknowledgments
 
@@ -75,26 +65,14 @@ If you have questions, please go to [Discussions](https://github.com/ZGGSONG/STr
 
 <a href="https://jb.gg/OpenSourceSupport"><img src="./attachments/imgs/jb_beam.svg" /></a>
 
-## Donations
-
-If you like it, you can buy the author a cup of coffee.
-
-> Thank you to those who rewarded me [Sponsor List](Sponsor.md)
-
-| WeChat | Alipay |
-| :--: | :--: |
-|![wehcatpay](./attachments/imgs/wechatpay.jpg) | ![alipay](./attachments/imgs/alipay.jpg) |
-
-## Others
-
-**The software is open source and free of charge. If there are special customization needs, I accept paid development [email](zggsong@foxmail.com)**
-
 ## Author
 
-**STranslate** © [zggsong](https://github.com/zggsong), Released under the [MIT](https://github.com/ZGGSONG/STranslate/blob/main/LICENSE) License.<br>
+**STranslate** © [amaoo](https://github.com/amaoo), Released under the [MIT](https://github.com/amaoo/STranslate/blob/1.x/LICENSE) License.<br>
 
-> Website [Blog](https://www.zggsong.com) · GitHub [@zggsong](https://github.com/zggsong)
+> GitHub [@amaoo](https://github.com/amaoo)
+
+> Forked from [ZGGSONG/STranslate](https://github.com/ZGGSONG/STranslate), full credit to the original author for the original project and historical [Sponsor List](Sponsor.md).
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ZGGSONG/STranslate&type=Date)](https://star-history.com/#ZGGSONG/STranslate&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=amaoo/STranslate&type=Date)](https://star-history.com/#amaoo/STranslate&Date)

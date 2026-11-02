@@ -707,6 +707,7 @@
     <system:String x:Key="About.SourceCode">源码</system:String>
     <system:String x:Key="About.Feedback">反馈</system:String>
     <system:String x:Key="About.Thanks">感谢</system:String>
+    <system:String x:Key="About.ForkFrom">Fork 来源</system:String>
     <system:String x:Key="About.ConfirmClearAllLog">确定要清理所有日志吗?</system:String>
     <system:String x:Key="About.Warning">警告</system:String>
     <system:String x:Key="About.NoUpdateExe">升级程序似乎遭到破坏，请手动前往发布页查看新版本</system:String>

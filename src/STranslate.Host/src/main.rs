@@ -31,7 +31,7 @@ enum TaskAction {
 fn main() {
     let matches = Command::new("z_stranslate_host")
         .version("1.0.0")
-        .author("ZGGSONG <zggsong@foxmail.com>")
+        .author("amaoo <https://github.com/amaoo>")
         .about("程序更新和后台启动工具")
         .subcommand(
             Command::new("update")
@@ -438,7 +438,7 @@ fn generate_task_xml(
 <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
     <Date>{}</Date>
-    <Author>stranslate - zggsong</Author>
+    <Author>stranslate - amaoo</Author>
     <Description>{}</Description>
     <URI>\{}</URI>
   </RegistrationInfo>

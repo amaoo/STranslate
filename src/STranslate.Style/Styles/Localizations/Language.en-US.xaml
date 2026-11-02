@@ -707,6 +707,7 @@
     <system:String x:Key="About.SourceCode">Source</system:String>
     <system:String x:Key="About.Feedback">Feedback</system:String>
     <system:String x:Key="About.Thanks">Thanks</system:String>
+    <system:String x:Key="About.ForkFrom">Forked From</system:String>
     <system:String x:Key="About.ConfirmClearAllLog">Confirm Clear All Log?</system:String>
     <system:String x:Key="About.Warning">Warning</system:String>
     <system:String x:Key="About.NoUpdateExe">The upgrade seems to be broken, please manually go to the release page to see the new version</system:String>
