@@ -17,6 +17,7 @@
     <PackageVersion Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.161" />
     <PackageVersion Include="NAudio" Version="2.2.1" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
+    <!-- 4.4.0 起(含 5.x/6.x)均依赖 Paddle.Runtime.win_x64；该包 nuspec 无 framework group，net10 下 build 资产被解析为 build/_._ 占位、targets 不导入，一批原生 DLL 不会复制到输出目录，OCR 运行时崩溃。4.3.0 是最后一个把 DLL 直接打进包的版本；且 5.x 起模型格式由 V4 换为 V5/V6、cleanocr 名单作废 -->
     <PackageVersion Include="PaddleOCRSharp" Version="4.3.0" />
     <PackageVersion Include="ScreenGrab" Version="1.0.17" />
     <PackageVersion Include="System.Speech" Version="10.0.15" />
@@ -28,7 +29,7 @@
     <PackageVersion Include="XamlFlair.WPF" Version="1.2.13" />
     <PackageVersion Include="ZXing.Net.Bindings.ZKWeb.System.Drawing" Version="0.16.9" />
     <PackageVersion Include="Serilog" Version="4.4.0" />
-    <PackageVersion Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageVersion Include="Serilog.Sinks.File" Version="7.0.0" />
     <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.23.0" />
     <PackageVersion Include="System.Management" Version="10.0.15" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
