@@ -246,11 +246,12 @@ public partial class BackupViewModel : ObservableObject
                 //添加结果到viewmodel
                 foreach (var res in ret.Resources)
                 {
-                    if (res.IsCollection || !res.Uri.Contains(Constant.CnfName))
+                    var uri = res.Uri;
+                    if (res.IsCollection || uri is null || !uri.Contains(Constant.CnfName))
                         continue;
 
                     //html解码以显示中文
-                    var decodeFullName = HttpUtility.UrlDecode(res.Uri).Replace(absolutePath, "").Trim('/');
+                    var decodeFullName = HttpUtility.UrlDecode(uri).Replace(absolutePath, "").Trim('/');
                     _webDavVm.WebDavResultList.Add(new WebDavResult(decodeFullName));
                 }
 

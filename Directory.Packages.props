@@ -3,30 +3,31 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="AlibabaCloud.SDK.Alimt20181012" Version="2.3.0" />
-    <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.3.2" />
-    <PackageVersion Include="Dapper" Version="2.1.35" />
+    <PackageVersion Include="AlibabaCloud.SDK.Alimt20181012" Version="2.4.2" />
+    <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <PackageVersion Include="Dapper" Version="2.1.89" />
     <PackageVersion Include="Dapper.Contrib" Version="2.0.78" />
     <PackageVersion Include="EdgeTTS.Net" Version="1.1.2.3" />
     <PackageVersion Include="gong-wpf-dragdrop" Version="4.0.0" />
-    <PackageVersion Include="H.InputSimulator" Version="1.4.2" />
+    <PackageVersion Include="H.InputSimulator" Version="1.5.0" />
     <PackageVersion Include="Hardcodet.NotifyIcon.Wpf" Version="2.0.1" />
     <PackageVersion Include="MdXaml" Version="1.27.0" />
-    <PackageVersion Include="Microsoft.CognitiveServices.Speech" Version="1.41.1" />
+    <PackageVersion Include="Microsoft.CognitiveServices.Speech" Version="1.53.1" />
     <PackageVersion Include="Microsoft.Data.Sqlite" Version="10.0.15" />
-    <PackageVersion Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    <PackageVersion Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.161" />
     <PackageVersion Include="NAudio" Version="2.2.1" />
-    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageVersion Include="PaddleOCRSharp" Version="4.3.0" />
-    <PackageVersion Include="ScreenGrab" Version="1.0.8" />
+    <PackageVersion Include="ScreenGrab" Version="1.0.17" />
     <PackageVersion Include="System.Speech" Version="10.0.15" />
+    <!-- 3.0.13xx 起上游移除了 TextTranslate 接口(仅保留 ImageTranslateLLM), 暂不升级 -->
     <PackageVersion Include="TencentCloudSDK.Tmt" Version="3.0.1122" />
-    <PackageVersion Include="WebDav.Client" Version="2.8.0" />
-    <PackageVersion Include="WeChatOcr" Version="1.0.3" />
+    <PackageVersion Include="WebDav.Client" Version="2.9.0" />
+    <PackageVersion Include="WeChatOcr" Version="1.0.5" />
     <PackageVersion Include="WpfScreenHelper" Version="2.1.1" />
     <PackageVersion Include="XamlFlair.WPF" Version="1.2.13" />
-    <PackageVersion Include="ZXing.Net.Bindings.ZKWeb.System.Drawing" Version="0.16.7" />
-    <PackageVersion Include="Serilog" Version="4.1.0" />
+    <PackageVersion Include="ZXing.Net.Bindings.ZKWeb.System.Drawing" Version="0.16.9" />
+    <PackageVersion Include="Serilog" Version="4.4.0" />
     <PackageVersion Include="Serilog.Sinks.File" Version="6.0.0" />
     <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.23.0" />
     <PackageVersion Include="System.Management" Version="10.0.15" />

@@ -5,7 +5,10 @@
 > 如需回退, 请下载上一版本 1.7.x
 
 - 升级: 目标框架 .NET 8 升级至 .NET 10 (`net10.0-windows`), 同步升级 Microsoft 相关依赖包至 10.0.15
+- 升级: 第三方依赖包更新 (`Dapper` / `ScreenGrab` / `Serilog` / `Microsoft.CognitiveServices.Speech` 等)
 - 移除: 三个已废弃的兼容包 (`System.Net.Http` / `System.Private.Uri` / `System.Text.RegularExpressions`), 改用框架内置实现
+- 优化: 更新前置检查, 运行时版本低于 .NET 10 时引导安装, 避免更新后无法启动
+- 修复: 文件读取未校验返回值 (`CA2022`)、SSE 流式读取同步阻塞 (`CA2024`) 两处隐患
 - 新增: AWS Bedrock 翻译服务, 支持 API 密钥与 AccessKey/SecretKey 两种鉴权方式
 
 > 该版本内部集成任务计划启动以跳过UAC弹窗确认, 用户可以在软件内设置是否启用管理员权限启动软件, 开机自启由软件内 `开机自启动` 控制
