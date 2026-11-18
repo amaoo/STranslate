@@ -711,6 +711,7 @@
     <system:String x:Key="About.ConfirmClearAllLog">确定要清理所有日志吗?</system:String>
     <system:String x:Key="About.Warning">警告</system:String>
     <system:String x:Key="About.NoUpdateExe">升级程序似乎遭到破坏，请手动前往发布页查看新版本</system:String>
+    <system:String x:Key="About.RuntimeRequired">新版本基于 .NET 10 构建，当前运行环境低于 .NET 10，直接更新将导致软件无法启动。&#10;&#10;请先安装 .NET 10 Desktop Runtime (x64)，安装完成后重新打开软件再执行更新。&#10;&#10;是否现在打开下载页面？</system:String>
     <system:String x:Key="About.GetNewer">检测到最新版本</system:String>
     <system:String x:Key="About.UpdateFailed">检查更新出错, 请检查网络情况</system:String>
     <system:String x:Key="About.Downloading">正在下载软件</system:String>

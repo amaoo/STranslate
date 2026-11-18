@@ -12,6 +12,11 @@ public static class Constant
     public const string VersionInfoUrl = "https://raw.githubusercontent.com/amaoo/STranslate/refs/heads/1.x/version-info.json";
     public const string DefaultVersion = "1.0.0.0";
 
+    /// <summary>
+    ///     .NET 桌面运行时下载页(该地址会按访问者区域自动跳转)
+    /// </summary>
+    public const string NetRuntimeDownloadUrl = "https://dotnet.microsoft.com/download/dotnet/10.0";
+
     public static readonly string AppVersion =
         Application.ResourceAssembly.GetName().Version?.ToString() ?? DefaultVersion;
 

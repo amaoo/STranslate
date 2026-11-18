@@ -40,6 +40,8 @@
 
 ## Installation
 
+> **Requires .NET 10 Desktop Runtime**: this app is published as framework-dependent. Please install [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/10.0) before running, otherwise it will fail to start.
+
 Download the latest [Release](https://github.com/amaoo/STranslate/releases) version and extract it to use.
 
 ## Usage

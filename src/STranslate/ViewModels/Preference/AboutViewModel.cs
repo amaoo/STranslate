@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Windows;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -106,6 +107,10 @@ public partial class AboutViewModel : ObservableObject
                 return;
             }
 
+            // 新版本基于 .NET 10 构建, 运行时版本不足时更新完成后软件将无法启动
+            if (!IsRuntimeSupported())
+                return;
+
             var remoteVer = result?.Version ?? Constant.AppVersion;
             var desc = result?.Body ?? "";
             var newVersionInfo = $"# {AppLanguageManager.GetString("About.GetNewer")}: {remoteVer}\n{(string.IsNullOrEmpty(desc) ? "" : $"\n{desc}")}";
@@ -157,6 +162,28 @@ public partial class AboutViewModel : ObservableObject
             IsChecking = false;
             IsDownloading = false;
         }
+    }
+
+    /// <summary>
+    ///     1.8.0 起的新版本基于 .NET 10 构建, 而软件为框架依赖发布,
+    ///     当前运行时低于 .NET 10 时直接更新会导致软件无法启动, 因此在此拦截并引导安装
+    /// </summary>
+    /// <returns>当前运行时是否满足新版本要求</returns>
+    private static bool IsRuntimeSupported()
+    {
+        LogService.Logger.Info($"当前运行环境: {RuntimeInformation.FrameworkDescription}");
+
+        // FrameworkDescription 仅用于记录, 版本判断用 Environment.Version 更稳妥
+        if (Environment.Version.Major >= 10)
+            return true;
+
+        var title = AppLanguageManager.GetString("MessageBox.Tip");
+        if (MessageBox_S.Show(AppLanguageManager.GetString("About.RuntimeRequired"), title, MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+        {
+            Process.Start(new ProcessStartInfo { FileName = Constant.NetRuntimeDownloadUrl, UseShellExecute = true });
+        }
+
+        return false;
     }
 
     private void ExecuteUpdate(string file)

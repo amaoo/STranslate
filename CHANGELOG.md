@@ -1,5 +1,11 @@
 ## 更新
 
+> **重要: 本版本起需要 .NET 10 Desktop Runtime**
+> 软件为框架依赖发布, 升级后请先安装 [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0), 否则无法启动
+> 如需回退, 请下载上一版本 1.7.x
+
+- 升级: 目标框架 .NET 8 升级至 .NET 10 (`net10.0-windows`), 同步升级 Microsoft 相关依赖包至 10.0.15
+- 移除: 三个已废弃的兼容包 (`System.Net.Http` / `System.Private.Uri` / `System.Text.RegularExpressions`), 改用框架内置实现
 - 新增: AWS Bedrock 翻译服务, 支持 API 密钥与 AccessKey/SecretKey 两种鉴权方式
 
 > 该版本内部集成任务计划启动以跳过UAC弹窗确认, 用户可以在软件内设置是否启用管理员权限启动软件, 开机自启由软件内 `开机自启动` 控制

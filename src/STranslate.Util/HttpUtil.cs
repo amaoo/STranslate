@@ -192,9 +192,12 @@ public class HttpUtil
         await using var responseStream = await response.Content.ReadAsStreamAsync(token);
         using var reader = new StreamReader(responseStream);
 
-        while (!reader.EndOfStream && !token.IsCancellationRequested)
+        while (!token.IsCancellationRequested)
         {
             var content = await reader.ReadLineAsync(token);
+            if (content is null)
+                break;
+
             if (!string.IsNullOrEmpty(content))
                 onDataReceived?.Invoke(content);
         }

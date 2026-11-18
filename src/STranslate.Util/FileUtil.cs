@@ -16,7 +16,7 @@ public static class FileUtil
 
         // 读取文件的 byte[]
         var bytes = new byte[fileStream.Length];
-        fileStream.Read(bytes, 0, bytes.Length);
+        fileStream.ReadExactly(bytes);
         fileStream.Close();
         // 把 byte[] 转换成 Stream
         Stream stream = new MemoryStream(bytes);

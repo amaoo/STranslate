@@ -40,6 +40,8 @@
 
 ## 安装
 
+> **需要 .NET 10 Desktop Runtime**：本软件为框架依赖（framework-dependent）发布，运行前请先安装 [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)，否则无法启动。
+
 下载最新 [Release](https://github.com/amaoo/STranslate/releases) 版本后解压即可使用
 
 ## 使用
